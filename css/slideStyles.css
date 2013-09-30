@@ -1,0 +1,22 @@
+.reveal section img.logo {
+	outline: none;
+	border: 0; 
+	background: none;
+	box-shadow: none;
+	width: 110%;
+}
+.reveal section h2 {
+    margin-bottom: 30px;
+}
+strong {
+    font-weight: bolder;
+}
+
+.reveal section input, .reveal section button {
+    font-size: 100%;
+}
+.reveal pre.inline {
+    display: inline-block;
+    text-transform: none;
+    width: inherit;
+}
