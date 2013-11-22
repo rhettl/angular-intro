@@ -20,3 +20,31 @@ strong {
     text-transform: none;
     width: inherit;
 }
+
+.reveal pre.inline code {
+    overflow: visible;
+}
+
+.reveal .column {
+    margin: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.reveal .column.two{
+    width: 45%;
+}
+.reveal .left-align {
+    text-align: left;
+}
+.reveal table {
+    width: 100%;
+}
+.reveal table tr td{
+    text-align: center;
+}
+.reveal table tr td:first-child{
+    text-align: left;
+}
+.reveal table tr td:last-child{
+    text-align: right;
+}
